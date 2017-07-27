@@ -8,8 +8,7 @@ void ofApp::setup(){
     meshNum=model.getNumMeshes();
     light.enable();
     light2.enable();
-    //light.setSpotlight();
-    //light2.setSpotlight();
+
     light.setAmbientColor(ofFloatColor(1.0,1.0,1.0));
     float width     = ofGetWidth() * .12;
     float height    = ofGetHeight() * .12;
